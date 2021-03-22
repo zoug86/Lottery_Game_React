@@ -1,0 +1,31 @@
+.Lottery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    width: 50%;
+    padding: 0 3rem 2rem 3rem;
+    margin-top: 2rem;
+}
+
+.Lottery-title{
+    font-size: 2rem;
+    /* margin-bottom: 2rem; */
+}
+
+.Lottery-button{
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: white;
+    width: 7rem;
+    padding: 0.5rem;
+    background-color:rgb(75, 75, 219);
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;;
+}
+
+.Lottery-button:hover{
+    background-color:  blue;
+}
